@@ -1,0 +1,390 @@
+body{
+  background: #ffffff;
+  color: #ccc;
+  font: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+#container{
+  width: auto;
+  height: auto;
+}
+
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  padding-left: 3%;
+  overflow: hidden;
+  background-color: #88c;
+}
+ul.menu li{float: left;}
+ul.menu li a{
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 10px ;
+  text-decoration: none;
+  transition: 0.2;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul.menu li a:hover {background-color: #78f;}
+
+#header{
+  width: auto;
+  height: 400px;
+  background-image: url(img/banner.png);
+  background-size: 100%;
+  padding: 5px;
+}
+.tepi{
+  width: auto;
+  height: auto;
+  border: 5px solid #99c;
+}
+h3.kotak{
+  width: 300px;
+  height: 70px;
+  border: 5px solid #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000;
+}
+h3.kotak:hover{
+  color: #66f;
+}
+nav#bulet{
+  display: block;
+  float: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+img.gambar{
+  border: 10px solid #4F6CFF;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 500px;
+  margin-bottom: 30px;
+}
+h3.text{
+  float: center;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  font-family: inherit;
+}
+h3.text:hover{
+  color: #66f;
+}
+p.text{
+  text-align: center;
+  color: black;
+  font-family: 12px solid #000;
+  padding: 2px;
+  margin-right: 630px;
+}
+h2.about{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  margin-top: -145px;
+  margin-left: 600px;
+}
+
+p.about{
+  margin-top: -10px;
+  margin-left: 600px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+p{
+  text-align: center;
+}
+p:hover{
+  color: #f99;
+}
+h2.about:hover{
+  color: #55f;
+}
+article{
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4{
+  display: block;
+}
+#row{
+  width: auto;
+  height: 550px;
+  background-image: url(img/background.png);
+  background-size: 100%;
+  background-color: rgba(38, 120, 188, 0.60);
+  margin: -33px;
+}
+
+h2.skill{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  font-style: inherit;
+  padding-top: 40px;
+}
+h2.skill:hover{
+  color: #55f;
+}
+img.gambar-skill{
+  border: 10px solid #4F6CFF;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+#contact-us{
+  width: auto;
+  height: 450px;
+  background-color: #576;
+  padding-top: 10px;
+  border: 3px solid #77c;
+}
+h3.contact-us{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  padding-bottom: 30px;
+}
+h3.contact-us:hover{
+  color: #55f;
+}
+.ifrom{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.finput{
+  width: auto;
+  height: 20px;
+  float: center;
+  padding: 2px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 5px;
+  margin-top: -145px;
+  margin-left: 510px;
+  border-radius: 10px;
+}
+.ftextarea{
+  width: auto;
+  height: 100px;
+  float: center;
+  margin-bottom: 10px;
+  padding-right: 2px;
+  margin-left: 510px;
+  border-radius: 10px;
+}
+/*-- Effek Input --*/
+.kecil{width: 200px;}
+.sedang{width: 300px;}
+.lebar{width: 400px;}
+
+/*-- ukuran Button --*/
+.small{width: 100px;}
+.medium{width: 150px;}
+.big{width: 200px;}
+
+.btn{
+  background-color: default;
+  margin-left: 515px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+footer{
+  width: auto;
+  height: 40px;
+  background-color: #78f;
+  text-align: center;
+  border: 2px solid #78f;
+  padding: 10px;
+  color: white;
+}
+table{
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+table, th, td{
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: black;
+  padding: 5px;
+}
+.KotakAbout{
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+label.KotakAbout{
+  padding: 10px;
+  float: center;
+  width: 100px;
+  border: 2px solid #78f;
+  font-weight: bold;
+  color: #000;
+  background-color: orange;
+  margin-left: 600px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+label.KotakAbout:hover{
+  background-color: #78f;
+  color: black;
+}
+.KotakAbout{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+label.KotakAbout1{
+  padding: 10px;
+  float: center;
+  width: 100px;
+  border: 2px solid #78f;
+  font-weight: bold;
+  color: #000;
+  background-color: orange;
+  margin-left: 600px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+label.KotakAbout1:hover{
+  background-color: #78f;
+  color: black;
+}
+.foto{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border: 3 solid blue;
+
+}
+#kotak{
+  border: 3px solid #78f;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.content{
+  float: right;
+  margin-top: -350px;
+}
+.navbar{
+  height: 300px;
+  width: 800px;
+  border: 3px solid #78f;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+#navbar-list{
+  padding: 5px;
+  margin-top: -300px;
+  margin-left: -120px;
+}
+.nav-list{
+  width: 100px;
+  height: auto;
+  background-color: #78f;
+  margin-right: 100px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: red;
+}
+.nav-list:hover{
+  background-color: #67d;
+}
+.KotakContent{
+  height: 110px;
+  width: 110px;
+  border: 5px solid #78f;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+}
+.GambarContent{
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.KotakContent1{
+  height: 110px;
+  width: 110px;
+  border: 5px solid #78f;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  margin-top: -270px;
+  margin-left: 150px;
+}
+.GambarContent1{
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.KotakContent2{
+  height: 110px;
+  width: 110px;
+  border: 5px solid #78f;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+.GambarContent2{
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.KotakContent3{
+  height: 270px;
+  width: 450px;
+  border: 5px solid #78f;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  margin-top: -270px;
+  margin-left: 300px;
+}
+.VideoContent3{
+  height: 270px;
+  width: 450px;
+  padding: 5px;
+}
+#tabel{
+  width: 100%;
+}
+
+#TabelPort{
+  width: auto;
+  height: auto;
+  margin-right: 500px;
+}
+.text{
+  text-align: center;
+}
