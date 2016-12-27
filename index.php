@@ -12,7 +12,7 @@
   <div class="tepi"></div>
   <nav id="bulet">
     <img class="gambar" src="img/my.jpg">
-    <h3 class="text">ROHMAN NUR HAQIQI</h3>
+    <h3 id="text">ROHMAN NUR HAQIQI</h3>
     <p class="text">"Mimpi itu merupakan tujuan dari hidup itu sendiri, tanpa mimpi kita tidak<br/> akan tau arah tujuan kita.
     Tetap semangat dan terus lah mencoba, <br/>jangan pantang menyerah dan raih lah mimpi-mu setinggi langit."</p>
     <h2 class="about">About Us</h2>
@@ -50,6 +50,7 @@
         <input type="button" class="btn medium" value="Kirim"></input>
       </div>
     </div>
+    <?php include 'sosial.php'; ?>
   </div>
 
 <?php include 'footer.php'; ?>
