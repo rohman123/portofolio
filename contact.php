@@ -28,6 +28,8 @@
         <input type="button" class="btn medium" value="Kirim"></input>
       </div>
     </div>
+        <?php include 'sosial.php'; ?>
+      </div>
 </div>
 <?php include 'footer.php'; ?>
 </body>
