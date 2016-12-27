@@ -18,6 +18,8 @@
     <img class="gambar-skill" src="img/skil/img4.png">
   </div>
 </div>
+<?php include 'sosial.php'; ?>
+</div>
 
 <?php include 'footer.php'; ?>
 </body>
