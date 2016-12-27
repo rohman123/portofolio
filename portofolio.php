@@ -62,6 +62,7 @@
         <td class="text" colspan="4"><tt>Saya juga pernah membuat video editing dengan After Effect</tt></td>
       </tr>
     </table>
+    <?php include 'sosial.php'; ?>
 </div>
 <?php include 'footer.php'; ?>
 </body>
