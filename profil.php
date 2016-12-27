@@ -79,6 +79,7 @@
         <td>rohmannurhaqiqi@gmail.com</td>
       </tr>
     </table>
+    <?php include 'sosial.php'; ?>
   </nav>
 
 <?php include 'footer.php'; ?>
